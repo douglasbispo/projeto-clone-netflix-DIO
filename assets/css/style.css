@@ -7,7 +7,7 @@ button { cursor: pointer; }
 button i { margin-right: 5px; }
 
 /* Navbar */
-header .container { display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin: 0 10px 0 10px; }
+header .container { display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin: 0 50px 0 50px; }
 header .logo { color: var(--vermelho); font-family: 'Arial Black'; font-size: 40px; }
 header nav a { text-decoration: none; color: #aaaaaa; margin-right: 10px; }
 header nav a:hover { color: var(--branco); }
@@ -23,7 +23,7 @@ main .main-film button { background-color: rgba(0,0,0,.4); border: none; border-
 main .main-film button:hover { background-color: var(--branco); color: #000; }
 
 /* carousel */
-.container-carousel .films-carousel .title-carrosel { margin: 0 0 8px 80px; color: #aaaaaa; }
+.container-carousel .films-carousel .title-carrosel { margin: 8px 0 8px 80px; color: #aaaaaa; }
 .container-carousel .films-carousel .film-box { height: 300px; }
 
 /* films */
