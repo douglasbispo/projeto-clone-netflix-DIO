@@ -1,0 +1,57 @@
+@media screen and (max-width: 700px) {
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    main .main-film button {
+        margin-top: 7px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    main .main-film .container {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .films-list .cards-container {
+        display: flex;
+        flex-direction: column;
+    }
+    .films-list .cards-container img { 
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .films-list .cards-container img { 
+        height: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .films-list .cards-container img { 
+        height: 250px;
+    }
+}
+
+
+@media screen and (max-width: 300px) {
+    .films-carousel .film-box {
+        height: 225px; 
+    }
+}
+
+@media screen and (min-width: 700px) {
+    main .main-film .description {
+        width: 50%;
+    }
+}
+
+@media screen and (min-width: 700px) {
+    main .main-film .description {
+        width: 50%;
+    }
+}

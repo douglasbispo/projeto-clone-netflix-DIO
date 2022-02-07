@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freeflix</title>
+    <link rel="shortcut icon" href="assets/img/icone-netflix-1.jpg">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- responsividade -->
+    <link rel="stylesheet" href="assets/css/respondive.css">
+
+    <!-- owl css -->
+    <link rel="stylesheet" href="assets/css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/css/owl/owl.theme.default.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h2 class="logo">FREEFLIX</h2>
+            <nav>
+                <a href="index.html">Inicio</a>
+                <a href="assets/views/filmes.html">Filmes</a>
+                <a href="assets/views/curta-metragem.html">Curta metragem</a>
+                <a href="#">Documentários</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="main-film">
+            <div class="container">
+                <h3 class="title">The Jester: Chapter 3</h3>
+                <p class="description">
+                    Na noite de Halloween, uma jovem não tem ninguém para pedir doces ou travessuras... até que The
+                    Jester se oferece para
+                    acompanhá-la.
+                </p>
+                <div class="buttons">
+                    <a href="https://youtu.be/Cnw0DD45jGY" target="_blank">
+                        <button role="button">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR AGORA
+                        </button>
+                    </a>
+
+                    <button role=" button" id="more-info">
+                        <i class="fas fa-info-circle"></i>
+                        MAIS INFROMAÇÕES
+                    </button>
+
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <div class="container-carousel">
+        <div class="films-carousel">
+            <h3 class="title-carrosel">Filmes</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme01.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme02.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme03.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme04.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme05.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme06.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme07.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme08.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme09.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/filme10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+
+        <div class="films-carousel">
+            <h3 class="title-carrosel">Curta metragens</h3>
+            <div class="owl-carousel owl-theme">
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta01.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta02.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta03.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta04.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta05.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta06.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta07.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta08.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta09.jpg" alt="">
+                </div>
+                <div class="item">
+                    <img class="film-box" src="assets/img/curta10.jpg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="modal-info" class="modal">
+        <div class="container">
+            <img src="assets/img/curta03.jpg" alt="">
+            <div class="film-content">
+                <h3 class="title">The Jester: Chapter 3</h3>
+                <p class="date"> 31/10/2019 </p>
+                <h3 class="synopsis">Sinopse</h3>
+                <p class="description">
+                    Na noite de Halloween, uma jovem não tem ninguém para pedir doces ou travessuras... até que The
+                    Jester se oferece para
+                    acompanhá-la.
+                </p>
+
+                <div class="buttons">
+                    <a href="https://youtu.be/Cnw0DD45jGY" target="_blank">
+                        <button role="button">
+                            <i class="fas fa-play"></i>
+                            ASSISTIR
+                        </button>
+                    </a>
+                </div>
+            </div>
+            <a href="" class="close">&times;</a>
+        </div>
+    </div>
+
+    <script src="assets/js/script.js"></script>
+
+    <!-- icons Awesome -->
+    <script src="https://kit.fontawesome.com/946743678b.js" crossorigin="anonymous"></script>
+
+    <!-- owl script -->
+    <script src="assets/js/owl/jquery.min.js"></script>
+    <script src="assets/js/owl/owl.carousel.min.js"></script>
+    <script src="assets/js/owl/setup.js"></script>
+</body>
+
+</html>

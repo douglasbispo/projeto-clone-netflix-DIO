@@ -1,0 +1,55 @@
+/* General */
+:root{ --vermelho: #e50914; --preto: #141414; --branco: #ffffff; }
+*{ margin: 0; padding: 0; box-sizing: border-box; }
+body{ background: var(--preto); font-family: 'Arial', Times, serif; color: var(--branco); }
+a { text-decoration: none; cursor: pointer; }
+button { cursor: pointer; }
+button i { margin-right: 5px; }
+
+/* Navbar */
+header .container { display: flex; flex-direction: row; align-items: center; justify-content: space-between; margin: 0 10px 0 10px; }
+header .logo { color: var(--vermelho); font-family: 'Arial Black'; font-size: 40px; }
+header nav a { text-decoration: none; color: #aaaaaa; margin-right: 10px; }
+header nav a:hover { color: var(--branco); }
+
+/* main film */
+main .main-film { font-size: 16px; background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), url(../img/capa-the-jester.jpg);
+    height: 500px; background-size: cover; display: flex; flex-direction: column; justify-content: center; align-items: flex-start; }
+main .main-film .container { margin-left: 80px; width: 70%; }
+main .main-film .title { margin-top: 15%; font-size: 40px; font-family: 'Trebuchet MS', Arial, sans-serif; }
+main .main-film .description { margin-top: 10px; margin-bottom: 40px; }
+main .main-film button { background-color: rgba(0,0,0,.4); border: none; border-radius: 3px; color: var(--branco); padding: 15px 25px; margin-right: 10px; width: 200px;
+    font-size: 12px; transition: .3s ease all; }
+main .main-film button:hover { background-color: var(--branco); color: #000; }
+
+/* carousel */
+.container-carousel .films-carousel .title-carrosel { margin: 0 0 8px 80px; color: #aaaaaa; }
+.container-carousel .films-carousel .film-box { height: 300px; }
+
+/* films */
+.films-list { margin-top: 100px; }
+.films-list .container { margin: 0 15% 30px 15%; }
+.films-list .container h1 { margin-bottom: 20px; color: #b9b8b8; font-size: 30px; }
+.films-list .cards-container { margin-bottom: 10px; border: 1px solid var(--vermelho); border-radius: 3px; display: flex; }
+.films-list .cards-container img { height: 200px; margin: 15px; border-radius: 2px; }
+.film-content { margin: 15px; font-family: 'Trebuchet MS', Arial, sans-serif; }
+.film-content .title { font-size: 22px; font-weight: bold; margin-bottom: 15px; }
+.film-content .date { font-size: 12px; margin-bottom: 15px; color: #aaaaaa; }
+.film-content .synopsis { font-size: 17px; margin-bottom: 8px; }
+.film-content .description { font-size: 14px; margin-bottom: 15px; color: #d3d3d3; }
+.film-content button { background-color: rgba(0,0,0,.4); border: none; border-radius: 3px; color: var(--vermelho); padding: 10px 0px;  
+    width: 110px; font-size: 12px; transition: .3s ease all; }
+.film-content button:hover {  background-color: var(--vermelho); color: var(--branco); }
+
+
+/* Mais info */
+.modal {  width: 100%; height: 100%; left: 0; top: 0; background-color: rgba(0,0,0,.6); position: fixed; display: flex; z-index: 1; align-items: center; justify-content: center; transform: scale(1.1); opacity: 0; visibility: hidden; transition: visibility 0.25s ease-in-out, transform 0.25s ease-in-out, opacity 0.25s ease-in-out; }
+.show-modal { opacity: 1; visibility: visible; transform: scale(1.0); }
+#modal-info .container { margin: 0 20%; height: 350px; display: flex; align-items: center; background-color: var(--preto); padding: 16px 24px; border-radius: 0.5rem; }
+#modal-info .container img { height: 230px; border-radius: 5px; }
+#modal-info .container .close { background-color: rgba(0,0,0,.4); color: var(--vermelho); font-size: 20px; position: relative; text-align: center; 
+    border-radius: 2px; width: 35px; height: 25px; margin-top: -270px; }
+#modal-info .container .close:hover { background-color: var(--vermelho); color: var(--branco); }
+
+
+
